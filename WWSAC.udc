@@ -1,0 +1,113 @@
+[Author]
+AuthorName=Les
+Callsign=G4OGB
+Email=g4ogb@tiscali.co.uk
+[File]
+Revision =1.0.0
+LastUpdate =5/10/2020
+Description = WW SSB Activity Contest. Exch; RST+Age Group - OM, YL, Youth or Youth YL
+[Contest]
+Name =WWSAC
+DisplayName = WW SSB Activity Contest
+CabrilloName =WWSAC
+Mode =SSB
+DupeType = 2
+Multiplier1Name =CountryPrefix
+Multiplier2Name = 
+Multiplier3Name = 
+Period =
+PointsPerContact =ExchIs_OM, 1, ExchIs_YL, 5, ExchIs_Y, 10, ExchIs_YYL, 15
+
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory =
+
+PointMultAtTimeLocal = 
+PointMultAtTimeGMT = 
+
+PowerMult = 
+
+ZoneType = 
+MultSqlString = CountryPrefix
+MultSqlString2 = 
+MultSqlString3 = 
+MultWindowType = 
+
+IsMultPer = 1
+IsMult1Per = 
+IsMult2Per = 
+IsMult3Per = 
+
+DoNotCountMeAsMult = 
+DoNotCountMeAsMult2 = 
+DoNotCountMeAsMult3 = 
+
+CountMultOnlyFor = 
+CountMultOnlyFor2 = 
+CountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 = 
+CountMultOnlyForSec3 =
+
+ShowMyCountryStations =
+ShowWarcBands =
+
+MultiplierBands =
+CQZoneMultContest =
+NumMults = 1
+BonusPoints = 
+BonusPoints2 = 
+
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 = 
+DoNotCountMultOnlyFor3 = 
+
+QsoErrorString = Any
+EntryWindowInfo =SNTText, 450, RCVText, 450, Exchange1Text, 600
+FrameText =SntRpt RcvRpt Exch
+LogInfo = SentReport, 450, SentNR, 450, ReceiveReport, 450, Exchange1, 600, IsMultiplier1, 300, IsMultiplier2, 300, Points, 350 
+DefaultContestExchange =OM,YL,Y,YYL
+
+CabrilloVersion =3.0
+CabrilloFormat = 99
+CabrilloString =SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString =
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       Sent                 Call            Rcvd Exchange        Points  S/P Ctry
+
+IsWorkable = Any
+SpecialInstructions = 
+
+DupeSqlString = 
+StartOfContest =
+EndOfContest =
+MinimumOffTime =
+UsesWAECountries = 
+QsoNumbersByBand = 
+SetSentTimeForContact =
+
+ScoreSummaryMultNames = Mlt
+WebAddress = https://wwsac.com/rules.html
+DigitalModeSqlString =
+MultipleSessions = 
+ResetMultsEverySession = 
+ResetSNEverySession =
+
+MultMult =  
+MultMult2 = 
+MultMult3 = 
+
+SingleOpCountableBandChange =
+MultiOpCountableBandChange =
+CountBandOrModeChange =
+SOBandChangeCountMax =
+MOBandChangeCountMax =
+CountBandChangesPerContest =
+CountBandChangesPerPeriod =
+SOBandChangeTimerDuration =
+MOBandChangeTimerDuration =
+
+DupeQSOMinutesAgo =
+
+UsesLASTEXCHmacro =
+
