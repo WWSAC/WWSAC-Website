@@ -67,7 +67,7 @@ QsoErrorString = Any
 EntryWindowInfo =SNTText, 450, RCVText, 450, Exchange1Text, 600
 FrameText =SntRpt RcvRpt Exch
 LogInfo = SentReport, 450, SentNR, 450, ReceiveReport, 450, Exchange1, 600, IsMultiplier1, 300, IsMultiplier2, 300, Points, 350 
-DefaultContestExchange =
+DefaultContestExchange =OM
 
 CabrilloVersion =3.0
 CabrilloFormat = 99
